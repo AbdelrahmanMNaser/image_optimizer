@@ -170,7 +170,7 @@ export default function Result() {
           </h1>
 
           <h3 className="text-xl font-semibold text-gray-700 mb-4 text-center">
-            Original Image Size: {originalSize / (1024 * 1024)} MB
+            Original Image Size: {(originalSize / (1024 * 1024)).toFixed(2)} MB
           </h3>
 
           {isCompressing ? (
